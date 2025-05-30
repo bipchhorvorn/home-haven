@@ -4,10 +4,6 @@
 
 It utilizes **Ruby on Rails** with a **PostgreSQL** database on the back-end, and **React.js** and **Redux** on the front-end.
 
-### Screenshots
-
-![HomeHaven clone screenshot Kenneth Choi](https://raw.githubusercontent.com/mrkchoi/WHR_data_visualization/master/dist/assets/screenshots/aerbnb_screenshot.gif)
-
 ### Key Features
 
 #### [HomeHaven Design Documents](https://github.com/mrkchoi/HomeHaven_clone/wiki)
