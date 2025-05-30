@@ -1,5 +1,5 @@
 {
-  "name": "airbnb",
+  "name": "HomeHaven",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.4.5",
@@ -47,15 +47,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrkchoi/airbnb_clone.git"
+    "url": "git+https://github.com/mrkchoi/HomeHaven_clone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrkchoi/airbnb_clone/issues"
+    "url": "https://github.com/mrkchoi/HomeHaven_clone/issues"
   },
-  "homepage": "https://github.com/mrkchoi/airbnb_clone#readme",
+  "homepage": "https://github.com/mrkchoi/HomeHaven_clone#readme",
   "devDependencies": {
     "webpack-cli": "^3.3.5"
   }

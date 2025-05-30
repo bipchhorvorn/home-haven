@@ -5,28 +5,27 @@
 .listingshow__footer-content {
   display: flex;
   align-items: center;
-  padding: 2.2rem 0;  
+  padding: 2.2rem 0;
 }
 
 .listingshow__footer-logo {
-  background-image: image-url("logo/01_airbnb-logo-sm-gray.png");
+  background-image: image-url("logo/01_HomeHaven-logo-sm-gray.png");
   width: 25px;
   height: 25px;
   background-size: cover;
 }
 
 .listingshow__footer-text {
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
   font-weight: 400;
   margin-left: 0.8rem;
 }
 
 .listingshow__footer-text span {
-  color: #FF5A5F;
+  color: #ff5a5f;
   font-size: 1.2rem;
 }
-
 
 .listingshow__footer-link {
   color: rgb(0, 132, 137);

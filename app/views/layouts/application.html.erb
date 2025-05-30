@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vacation Rentals, Homes, Experiences &amp; Places - Aerbnb</title>
-    <meta property="og:title" content="Vacation Rentals, Homes, Experiences &amp; Places - Airbnb">
+    <title>Vacation Rentals, Homes, Experiences &amp; Places - HomeHaven</title>
+    <meta property="og:title" content="Vacation Rentals, Homes, Experiences &amp; Places - HomeHaven">
 
     <% google_api_key = Rails.application.credentials.google[:api_key] %>
     
     <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=#{google_api_key}&libraries=places" %>
 
-    <link rel="shortcut icon" href="<%= image_url('favicon/airbnb_logotype_favicon.ico') %>" type="image/x-icon">
+    <link rel="shortcut icon" href="<%= image_url('favicon/HomeHaven_logotype_favicon.ico') %>" type="image/x-icon">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -22,8 +22,8 @@
     <%= javascript_include_tag 'application' %>
 
     <script type="text/javascript">
-      window.logoWhiteSmall = "<%= image_url('background/landing/01_airbnb-landing-main.jpg') %>"
-      window.landingHeroBg = "<%= image_url('logo/01_airbnb-logo-sm-white.png') %>"
+      window.logoWhiteSmall = "<%= image_url('background/landing/01_HomeHaven-landing-main.jpg') %>"
+      window.landingHeroBg = "<%= image_url('logo/01_HomeHaven-logo-sm-white.png') %>"
       window.userPhoto = "<%= image_url('user/00-default-user-photo.jpg') %>"
 
       window.amenitiesParking = "<%= image_url('amenities/01_parking.png') %>"

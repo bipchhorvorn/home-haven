@@ -1,17 +1,21 @@
-# Aerbnb
-**Aerbnb** is a single-page, full stack web application **(SPA)** inspired by Airbnb where users can view, book, and search for listings by location.
+# HomeHaven
 
-It utilizes **Ruby on Rails** with a **PostgreSQL** database on the back-end, and **React.js** and **Redux** on the front-end. 
+**HomeHaven** is a single-page, full stack web application **(SPA)** inspired by HomeHaven where users can view, book, and search for listings by location.
+
+It utilizes **Ruby on Rails** with a **PostgreSQL** database on the back-end, and **React.js** and **Redux** on the front-end.
 
 ### Screenshots
 
-![AirBnB clone screenshot Kenneth Choi](https://raw.githubusercontent.com/mrkchoi/WHR_data_visualization/master/dist/assets/screenshots/aerbnb_screenshot.gif)
+![HomeHaven clone screenshot Kenneth Choi](https://raw.githubusercontent.com/mrkchoi/WHR_data_visualization/master/dist/assets/screenshots/HomeHaven_screenshot.gif)
+
 ### Key Features
-#### [Aerbnb Design Documents](https://github.com/mrkchoi/airbnb_clone/wiki)
+
+#### [HomeHaven Design Documents](https://github.com/mrkchoi/HomeHaven_clone/wiki)
 
 #### User Authentication
-* Users can sign up or log in to use the application
-* Users can also log in through a demo account
+
+- Users can sign up or log in to use the application
+- Users can also log in through a demo account
 
 User credentials are securely hashed, salted, and stored as a password digest
 
@@ -22,7 +26,7 @@ class User < ApplicationRecord
   validates :password, length: {minimum: 6, allow_nil: true}
 
   // ..
-  
+
   attr_reader :password
   before_validation :ensure_session_token
 
@@ -53,15 +57,16 @@ end
 ```
 
 #### Listings
-* Listings are displayed on the homepage
-* Users are able to search for listings via Google Maps Places API
+
+- Listings are displayed on the homepage
+- Users are able to search for listings via Google Maps Places API
 
 As a user moves the map around, the new bounds (coordinates) will get updated in realtime and send the correct listings from the backend (PostgreSQL database)
 
 ```ruby
 class Listing < ApplicationRecord
   // ..
-  
+
   def self.in_bounds(bounds)
     bounds = JSON.parse(bounds)
 
@@ -70,10 +75,11 @@ class Listing < ApplicationRecord
       .where('long < ?', bounds["northEast"]["lng"].to_f)
       .where('long > ?', bounds["southWest"]["lng"].to_f)
   end
-  
+
   // ..
 end
 ```
+
 The Google Maps API is integrated into the appropriate React frontend components
 
 ```ruby
@@ -83,7 +89,7 @@ class ListingMap extends React.Component {
     this.renderMap = this.renderMap.bind(this);
     this.handleMarkerClick = this.handleMarkerClick.bind(this);
   }
-  
+
   // ..
 
   renderMap() {
@@ -103,7 +109,7 @@ class ListingMap extends React.Component {
   registerListeners() {
     google.maps.event.addListener(this.map, 'idle', () => {
       const { north, south, east, west } = this.map.getBounds().toJSON();
-      
+
       let bounds = {
         northEast: { lat: north, lng: east },
         southWest: { lat: south, lng: west }
@@ -111,34 +117,43 @@ class ListingMap extends React.Component {
 
       this.props.updateFilter("bounds", bounds);
     });
-    
+
     // ..
   }
 ```
 
 #### Bookings
-* A logged in user is able to view his or her bookings
-* A logged in user is able to make valid bookings on listings and delete any booking he or she made
+
+- A logged in user is able to view his or her bookings
+- A logged in user is able to make valid bookings on listings and delete any booking he or she made
 
 #### Technology Stack
-Aerbnb is a single-page web application with one backend route responsible for rendering HTML. User interactions in the front-end side trigger AJAX requests to the back-end, which is responsible for rendering database information in JSON format.
+
+HomeHaven is a single-page web application with one backend route responsible for rendering HTML. User interactions in the front-end side trigger AJAX requests to the back-end, which is responsible for rendering database information in JSON format.
 
 ### Front-end
+
 #### React
+
 The Rails backend API is connected to a React frontend to efficiently render to the virtual DOM.
 
 #### Redux
-Redux manages the front-end state of Aerbnb. When database information is retrieved, Redux state is updated first and re-renders the appropriate React components.
+
+Redux manages the front-end state of HomeHaven. When database information is retrieved, Redux state is updated first and re-renders the appropriate React components.
 
 ### Back-end
+
 #### Ruby on Rails
+
 Ruby on Rails is the back-end framework used to query the database.
 
 #### Database
-Aerbnb uses a PostgreSQL database to store its relational data.
+
+HomeHaven uses a PostgreSQL database to store its relational data.
 
 #### Future Plans
-* Implement ability for users to upload profile pictures and edit profile page
-* Infinite scrolling or pagination on the index pages
-* Implement ability to interact with friends, i.e. messaging
-* Additional filters for listings
+
+- Implement ability for users to upload profile pictures and edit profile page
+- Infinite scrolling or pagination on the index pages
+- Implement ability to interact with friends, i.e. messaging
+- Additional filters for listings

@@ -14,25 +14,23 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 16px;
-  margin-bottom: 6rem;  
+  margin-bottom: 6rem;
 }
 
 .listingshow__photos-grid-item-wrapper {
   overflow: hidden;
   background-size: cover;
   height: 225px;
-
 }
-
 
 .listingshow__photo-single {
   width: 100%;
-  opacity: 0;  
+  opacity: 0;
 }
 
 .listingshow__photos-extra-container {
   // background-color: #EBEBEB !important;
-  background-image: image-url("background/show/01-airbnb-plus-bg.jpg");
+  background-image: image-url("background/show/01-HomeHaven-plus-bg.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -40,21 +38,23 @@
   margin-bottom: 6rem;
 }
 
-.listingshow__photos-extra-inner {}
+.listingshow__photos-extra-inner {
+}
 .listingshow__photos-extra-logo {
-  background-image: image-url("logo/01_airbnb-plus-purple.png");
+  background-image: image-url("logo/01_HomeHaven-plus-purple.png");
   height: 45px;
   width: 95px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 3rem;  
+  margin-bottom: 3rem;
 }
 
-.listingshow__photos-extra-content {}
+.listingshow__photos-extra-content {
+}
 
 .listingshow__photos-extra-header {
   font-size: 1.6rem;
-  color: #484848;  
+  color: #484848;
 }
 
 .listingshow__photos-extra-text {

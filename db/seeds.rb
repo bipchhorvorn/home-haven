@@ -55,7 +55,7 @@ ActiveRecord::Base.transaction do
     firstname: 'Tyler',
     username: 'tytytyler',
     email: Faker::Internet.free_email,
-    bio: "Hi, I'm Tyler! I've lived in SF for over 12 years, and have traveled to over 40 countries for work assignments and for fun. I've flown 800K+ miles in my lifetime. I'll go far for amazing food, and even further for great art and design. As an airbnb Superhost, I will help you get to know SF as a local. As I've stayed in countless hotels and BnB's over the years (I used to have Diamond status at one of the hotel chains --- 65 nights a year on the road!), I know what great hospitality feels like and what's important to make your stay comfortable and feel a home away from home. I love sharing my favorite hidden spots in SF with my guests, and the many wonderful things I've collected over the years that bring me joy! I look forward to hosting you. As a guest, I am responsible, trustworthy, and I like to keep things neat. I take care of nice things. When I travel these days, I prefer to stay in a home instead of a hotel so that I really get to experience the city as a local and not a tourist. That's why I love airbnb. In my free time, I enjoy urban and rural hiking, a little leisurely biking, and a dash of yoga. I like building and crafting things --- my latest outlet is the potter's wheel.",
+    bio: "Hi, I'm Tyler! I've lived in SF for over 12 years, and have traveled to over 40 countries for work assignments and for fun. I've flown 800K+ miles in my lifetime. I'll go far for amazing food, and even further for great art and design. As an HomeHaven Superhost, I will help you get to know SF as a local. As I've stayed in countless hotels and BnB's over the years (I used to have Diamond status at one of the hotel chains --- 65 nights a year on the road!), I know what great hospitality feels like and what's important to make your stay comfortable and feel a home away from home. I love sharing my favorite hidden spots in SF with my guests, and the many wonderful things I've collected over the years that bring me joy! I look forward to hosting you. As a guest, I am responsible, trustworthy, and I like to keep things neat. I take care of nice things. When I travel these days, I prefer to stay in a home instead of a hotel so that I really get to experience the city as a local and not a tourist. That's why I love HomeHaven. In my free time, I enjoy urban and rural hiking, a little leisurely biking, and a dash of yoga. I like building and crafting things --- my latest outlet is the potter's wheel.",
     joined_date: '2011-07-11',
     password: 'password'
   )
@@ -82,7 +82,7 @@ ActiveRecord::Base.transaction do
     firstname: 'Carrie',
     username: 'especialcarrie',
     email: Faker::Internet.free_email,
-    bio: "Hi, Iʼm Carrie! Originally from Colorado, I've lived in San Francisco for the better part of 25 years and still absolutely love it. I'm a global traveler (30 countries and counting), work in the travel industry, and love showing off my City! I'm a former tech start-up employee (Xoogler), ski instructor and yoga teacher, well-balanced, fun, professional, and all around pretty relaxed. I loved doing home stays nearly 20 years ago while traveling solo around the world. It's wonderful to return the favor thanks to Airbnb! I'm a very proud Superhost and invite you to make yourself completely at home during your stay. I'm also very knowledgeable about the City, and always happy to make recommendations for any type of trip to San Francisco, so please ask!",
+    bio: "Hi, Iʼm Carrie! Originally from Colorado, I've lived in San Francisco for the better part of 25 years and still absolutely love it. I'm a global traveler (30 countries and counting), work in the travel industry, and love showing off my City! I'm a former tech start-up employee (Xoogler), ski instructor and yoga teacher, well-balanced, fun, professional, and all around pretty relaxed. I loved doing home stays nearly 20 years ago while traveling solo around the world. It's wonderful to return the favor thanks to HomeHaven! I'm a very proud Superhost and invite you to make yourself completely at home during your stay. I'm also very knowledgeable about the City, and always happy to make recommendations for any type of trip to San Francisco, so please ask!",
     joined_date: '2011-11-01',
     password: 'password'
   )
@@ -91,7 +91,7 @@ ActiveRecord::Base.transaction do
     firstname: 'Koncha',
     username: 'worldtraveler',
     email: Faker::Internet.free_email,
-    bio: "Hi, Iʼm Koncha! I'm a New York girl, now living in San Francisco, and loving it!! I work in Private Equity Real Estate and have been a professional accountant for 14 years now, first in Dallas, then New York and London, and now SF. Growing up, I lived all over the place, including Geneva, Dubai, India, Austin, Kuwait and Morocco, and then as an adult, in Austin, Dallas, Paris, New York, London and now San Francisco! I love to travel and am a long time Airbnb user. I recently made my way through Europe and Asia, and hope to travel through South America and Australia to follow in the next few years!! I love Wes Anderson movies, good red wines, Napa, the outdoors, clean eating, my sweet 5 year old nephew, and now of course, my sweet puppy Pokey (she's getting insta famous @petitepokey). Please read the useful info in my listing about parking, the neighborhood, the homeless situation in SF, check-in details, etc.",
+    bio: "Hi, Iʼm Koncha! I'm a New York girl, now living in San Francisco, and loving it!! I work in Private Equity Real Estate and have been a professional accountant for 14 years now, first in Dallas, then New York and London, and now SF. Growing up, I lived all over the place, including Geneva, Dubai, India, Austin, Kuwait and Morocco, and then as an adult, in Austin, Dallas, Paris, New York, London and now San Francisco! I love to travel and am a long time HomeHaven user. I recently made my way through Europe and Asia, and hope to travel through South America and Australia to follow in the next few years!! I love Wes Anderson movies, good red wines, Napa, the outdoors, clean eating, my sweet 5 year old nephew, and now of course, my sweet puppy Pokey (she's getting insta famous @petitepokey). Please read the useful info in my listing about parking, the neighborhood, the homeless situation in SF, check-in details, etc.",
     joined_date: '2011-10-31',
     password: 'password'
   )
@@ -100,7 +100,7 @@ ActiveRecord::Base.transaction do
     firstname: 'Matt & Jeff',
     username: 'matt_jeffy',
     email: Faker::Internet.free_email,
-    bio: "Hi, We're Matt And Jeff! We've lived in San Francisco for over 35 years so we know it well and love to share our knowledge about The City with our guests. Matt is a teacher in the San Francisco Unified School District and Jeff is an audiologist. As Airbnb hosts we enjoy meeting people from all over the world. Getting to know our guests and the city they are from is one of the great things about being hosts. We enjoy traveling, good restaurants (San Francisco has some of the best), & live theater. We have a Golden Retriever named Jake (who is very friendly and loves to meet all of our guests) and two cats Mitts and Morsel (who rules the house).",
+    bio: "Hi, We're Matt And Jeff! We've lived in San Francisco for over 35 years so we know it well and love to share our knowledge about The City with our guests. Matt is a teacher in the San Francisco Unified School District and Jeff is an audiologist. As HomeHaven hosts we enjoy meeting people from all over the world. Getting to know our guests and the city they are from is one of the great things about being hosts. We enjoy traveling, good restaurants (San Francisco has some of the best), & live theater. We have a Golden Retriever named Jake (who is very friendly and loves to meet all of our guests) and two cats Mitts and Morsel (who rules the house).",
     joined_date: '2015-01-04',
     password: 'password'
   )
@@ -118,7 +118,7 @@ ActiveRecord::Base.transaction do
     firstname: 'Katie',
     username: 'frenchchef99',
     email: Faker::Internet.free_email,
-    bio: "Hi, Iʼm Katie! I've lived in SF for over 12 years, and have traveled to over 40 countries for work assignments and for fun. I've flown 800K+ miles in my lifetime. I'll go far for amazing food, and even further for great art and design. As an airbnb Superhost, I will help you get to know SF as a local. As I've stayed in countless hotels and BnB's over the years (I used to have Diamond status at one of the hotel chains --- 65 nights a year on the road!), I know what great hospitality feels like and what's important to make your stay comfortable and feel a home away from home. I love sharing my favorite hidden spots in SF with my guests, and the many wonderful things I've collected over the years that bring me joy! I look forward to hosting you. As a guest, I am responsible, trustworthy, and I like to keep things neat. I take care of nice things. When I travel these days, I prefer to stay in a home instead of a hotel so that I really get to experience the city as a local and not a tourist. That's why I love airbnb. In my free time, I enjoy urban and rural hiking, a little leisurely biking, and a dash of yoga. I like building and crafting things --- my latest outlet is the potter's wheel.",
+    bio: "Hi, Iʼm Katie! I've lived in SF for over 12 years, and have traveled to over 40 countries for work assignments and for fun. I've flown 800K+ miles in my lifetime. I'll go far for amazing food, and even further for great art and design. As an HomeHaven Superhost, I will help you get to know SF as a local. As I've stayed in countless hotels and BnB's over the years (I used to have Diamond status at one of the hotel chains --- 65 nights a year on the road!), I know what great hospitality feels like and what's important to make your stay comfortable and feel a home away from home. I love sharing my favorite hidden spots in SF with my guests, and the many wonderful things I've collected over the years that bring me joy! I look forward to hosting you. As a guest, I am responsible, trustworthy, and I like to keep things neat. I take care of nice things. When I travel these days, I prefer to stay in a home instead of a hotel so that I really get to experience the city as a local and not a tourist. That's why I love HomeHaven. In my free time, I enjoy urban and rural hiking, a little leisurely biking, and a dash of yoga. I like building and crafting things --- my latest outlet is the potter's wheel.",
     joined_date: '2015-03-10',
     password: 'password'
   )
@@ -173,7 +173,7 @@ ActiveRecord::Base.transaction do
     firstname: 'Gabriel',
     username: 'gabunion',
     email: Faker::Internet.free_email,
-    bio: "Hi, Iʼm Gabriel! I have owned and managed three Airbnb locations over the last few years. It’s an amazing pleasure to host people from all over the world. I hope to make your stay in my homes a magical one.",
+    bio: "Hi, Iʼm Gabriel! I have owned and managed three HomeHaven locations over the last few years. It’s an amazing pleasure to host people from all over the world. I hope to make your stay in my homes a magical one.",
     joined_date: '2014-06-06',
     password: 'password'
   )
@@ -191,7 +191,7 @@ ActiveRecord::Base.transaction do
     firstname: 'Louis',
     username: 'louis86',
     email: Faker::Internet.free_email,
-    bio: "Hi, Iʼm Louis! Thank you for looking at my property. I grew up in Southern California but fell in love with San Francisco and have lived here the past 10 years. I love to get out and explore and have stayed with Airbnb in Sydney, Margaret River, Melbourne, Paris, Portland, Guatemala City, Lake Atitlan, Antigua, El Paredon, Los Cabos, San Diego and Hawaii. I am passionate about surfing and spending time with my two little boys.",
+    bio: "Hi, Iʼm Louis! Thank you for looking at my property. I grew up in Southern California but fell in love with San Francisco and have lived here the past 10 years. I love to get out and explore and have stayed with HomeHaven in Sydney, Margaret River, Melbourne, Paris, Portland, Guatemala City, Lake Atitlan, Antigua, El Paredon, Los Cabos, San Diego and Hawaii. I am passionate about surfing and spending time with my two little boys.",
     joined_date: '2018-04-08',
     password: 'password'
   )
@@ -222,7 +222,7 @@ ActiveRecord::Base.transaction do
  
     You can stay with me and my cat in my beautiful Inner Sunset Edwardian, or in one of many homes that I manage in the bay area. I specialize in 30 night+ furnished corporate rentals for traveling nurses and tech workers, so feel free to reach out and see how I can help.\n\n
     
-    I love to create clean, beautiful, thoughtfully designed homes. Message me if you are interested in design consultation, or need help with Airbnb management of your listings! ",
+    I love to create clean, beautiful, thoughtfully designed homes. Message me if you are interested in design consultation, or need help with HomeHaven management of your listings! ",
     joined_date: '2012-09-04',
     password: 'password'
   )
@@ -292,7 +292,7 @@ ActiveRecord::Base.transaction do
     
     I love traveling with my family but we're also happy just learning about other cultures through the people we meet.\n\n
     
-    I'm also kind of a nerd. I've been working in the video game industry for most of my career, and now I work at (Hidden by Airbnb).",
+    I'm also kind of a nerd. I've been working in the video game industry for most of my career, and now I work at (Hidden by HomeHaven).",
     joined_date: '2015-08-06',
     password: 'password'
   )
@@ -336,12 +336,12 @@ ActiveRecord::Base.transaction do
     # Personal users
     if idx < 9
       u = User.all[idx]
-      file = EzDownload.open("https://aerbnb-seeds.s3-us-west-1.amazonaws.com/photos/users/0#{idx+1}-user.jpg")
+      file = EzDownload.open("https://HomeHaven-seeds.s3-us-west-1.amazonaws.com/photos/users/0#{idx+1}-user.jpg")
       u.photo.attach(io: file, filename: "0#{idx+1}-user.jpg")
       u.save!
     else
       u = User.all[idx]
-      file = EzDownload.open("https://aerbnb-seeds.s3-us-west-1.amazonaws.com/photos/users/#{idx+1}-user.jpg")  
+      file = EzDownload.open("https://HomeHaven-seeds.s3-us-west-1.amazonaws.com/photos/users/#{idx+1}-user.jpg")  
       u.photo.attach(io: file, filename: "#{idx+1}-user.jpg")
       u.save!
     end
@@ -680,7 +680,7 @@ ActiveRecord::Base.transaction do
   # # Listing 11
   Listing.create(
     title: "Retreat in a Roomy Apartment in Mission Dolores / Castro",
-    description: "Stay in the vibrant heart of SF in a chic apt favored by airbnb employees! Steps from Dolores Park, Michelin star restaurants, and hip bars, this exceptionally-designed oasis is a walker's and foodie's paradise, unmatched in comfort and style.",
+    description: "Stay in the vibrant heart of SF in a chic apt favored by HomeHaven employees! Steps from Dolores Park, Michelin star restaurants, and hip bars, this exceptionally-designed oasis is a walker's and foodie's paradise, unmatched in comfort and style.",
     num_guests: 2,
     num_rooms: 1,
     num_beds: 1,
@@ -1213,19 +1213,19 @@ ActiveRecord::Base.transaction do
 
       if idx < 9
         # Full size Image
-        file = EzDownload.open("https://aerbnb-seeds.s3-us-west-1.amazonaws.com/photos/listings/SF/0#{idx+1}-SF/original/0#{idx+1}-0#{photo_idx+1}-SF.jpg")  
+        file = EzDownload.open("https://HomeHaven-seeds.s3-us-west-1.amazonaws.com/photos/listings/SF/0#{idx+1}-SF/original/0#{idx+1}-0#{photo_idx+1}-SF.jpg")  
         listing.photos.attach(io: file, filename: "0#{idx+1}-0#{photo_idx+1}-SF.jpg")
         
         # Thumbnail
-        file = EzDownload.open("https://aerbnb-seeds.s3-us-west-1.amazonaws.com/photos/listings/SF/0#{idx+1}-SF/thumbnail/0#{idx+1}-0#{photo_idx+1}-SF-thumb.jpg")  
+        file = EzDownload.open("https://HomeHaven-seeds.s3-us-west-1.amazonaws.com/photos/listings/SF/0#{idx+1}-SF/thumbnail/0#{idx+1}-0#{photo_idx+1}-SF-thumb.jpg")  
         listing.thumbnails.attach(io: file, filename: "0#{idx+1}-0#{photo_idx+1}-SF-thumb.jpg")
       else
         # Full size Image
-        file = EzDownload.open("https://aerbnb-seeds.s3-us-west-1.amazonaws.com/photos/listings/SF/#{idx+1}-SF/original/#{idx+1}-0#{photo_idx+1}-SF.jpg")  
+        file = EzDownload.open("https://HomeHaven-seeds.s3-us-west-1.amazonaws.com/photos/listings/SF/#{idx+1}-SF/original/#{idx+1}-0#{photo_idx+1}-SF.jpg")  
         listing.photos.attach(io: file, filename: "#{idx+1}-0#{photo_idx+1}-SF.jpg")
 
         # Thumbnail
-        file = EzDownload.open("https://aerbnb-seeds.s3-us-west-1.amazonaws.com/photos/listings/SF/#{idx+1}-SF/thumbnail/#{idx+1}-0#{photo_idx+1}-SF-thumb.jpg")  
+        file = EzDownload.open("https://HomeHaven-seeds.s3-us-west-1.amazonaws.com/photos/listings/SF/#{idx+1}-SF/thumbnail/#{idx+1}-0#{photo_idx+1}-SF-thumb.jpg")  
         listing.thumbnails.attach(io: file, filename: "#{idx+1}-0#{photo_idx+1}-SF-thumb.jpg")
       end
 
@@ -1250,7 +1250,7 @@ ActiveRecord::Base.transaction do
   num_users = User.all.length
   num_listings = Listing.all.length
   reviews = ["We loved staying here! It was clean and comfortable and we loved being close to the beach and far enough from the city to unwind. He was available as needed but also gave us privacy. Would definitely stay there again!",
-  "Nice AirBnB that is close to Ocean Beach, Golden Gate Park and public transportation! This place was modern and well equipped.",
+  "Nice HomeHaven that is close to Ocean Beach, Golden Gate Park and public transportation! This place was modern and well equipped.",
   "Excellent place to stay. Room has everything you need. I really want to stay longer, next time.",
   "Loved everything about this space. Super private. Very cozy and comfortable. Has everything you need.",
   "What a beautiful, minimalist place. I was so impressed with all the small, thoughtful touches, and the location is fabulous. Great stay!",
@@ -1285,7 +1285,7 @@ ActiveRecord::Base.transaction do
   "Just the best place to stay. Highly highly recommend this spot. No complaints at all!!!",
   "The room/suite was clean, accommodating, and comfortable. We very much enjoyed our stay.",
   "Great place to stay! Clean and comfortable. Worth every penny, I will be back!",
-  "This was our first experience with airbnb and it was amazing! The place is clean, comfortable, and beautifully done. We would love to stay here again the next time we are in SF. You will not be dissapointed.",
+  "This was our first experience with HomeHaven and it was amazing! The place is clean, comfortable, and beautifully done. We would love to stay here again the next time we are in SF. You will not be dissapointed.",
   "The host is thoughtful and room is decorated. Comfortable staying!",
   "This place is in a great location with many options for food. We were able to walk a few blocks down and get some food and dessert. We were also able to watch one of the NBA finals games in a bar that was walking distance away. We felt safe in this area. The host made checking in and out very easy.","Accommodating and made sure we were well informed about amenities. The decor was very homey and the place was clean and comfortable. I would definitely recommend staying here for many reasons!",
   "Lovely very clean every good location - very cute pupper!",

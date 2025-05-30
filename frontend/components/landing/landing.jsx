@@ -1,7 +1,7 @@
-import React from 'react';
-import SearchBarLandingContainer from '../search/search_bar_landing_container';
+import React from "react";
+import SearchBarLandingContainer from "../search/search_bar_landing_container";
 
-const Landing = props => {
+const Landing = (props) => {
   return (
     <div className="header__container-outer">
       {/* <Header /> */}
@@ -15,15 +15,15 @@ const Landing = props => {
       </div>
       <div className="header__desc-container">
         <p className="header__desc-content">
-          Introducing Aerbnb Luxe<br />
-          Extraordinary homes<br />
+          Introducing HomeHaven Luxe
+          <br />
+          Extraordinary homes
+          <br />
           with five–star everything
-          </p>
+        </p>
       </div>
     </div>
   );
-}
-
+};
 
 export default Landing;
-

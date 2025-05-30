@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 import PulseLoaderAnimation from "../loaders/pulse_loader";
-import { Link } from 'react-router-dom';
-import ListingIndexItem from './ListingIndexItem';
+import { Link } from "react-router-dom";
+import ListingIndexItem from "./ListingIndexItem";
 
 class ListingIndex extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loading: true
+      loading: true,
     };
 
     setTimeout(() => this.setState({ loading: false }), 4000);
@@ -17,8 +17,7 @@ class ListingIndex extends React.Component {
     // this.props.fetchListings();
     setTimeout(() => {
       document.body.classList.remove("landing__page");
-    }, 500); 
-
+    }, 500);
   }
 
   render() {
@@ -29,27 +28,24 @@ class ListingIndex extends React.Component {
     if (listings.length > 0) {
       listingHeader = (
         <div className="listingindex__header-container">
-          <h2 className="listingindex__header">{listings.length}+ Airbnb Plus stays</h2>
+          <h2 className="listingindex__header">
+            {listings.length}+ HomeHaven Plus stays
+          </h2>
           <p className="listingindex__header-sub">
             A selection of places to stay verified for quality and design
           </p>
         </div>
-      )
+      );
     } else {
       listingHeader = (
         <div className="listingindex__header-container">
-          <h2 className="listingindex__header">No Airbnb Plus results</h2>
+          <h2 className="listingindex__header">No HomeHaven Plus results</h2>
           <p className="listingindex__header-sub">
             Try adjusting your search by moving or zooming out on the map.
           </p>
           <p className="listingindex__header-sub">
             Or see all available listings in{" "}
-            <a
-              onClick={() => updateSearchCoords(
-                37.773972,
-                -122.431297
-              )}
-            >
+            <a onClick={() => updateSearchCoords(37.773972, -122.431297)}>
               San Francisco
             </a>
           </p>
@@ -78,6 +74,6 @@ class ListingIndex extends React.Component {
       </div>
     );
   }
-};
+}
 
 export default ListingIndex;
