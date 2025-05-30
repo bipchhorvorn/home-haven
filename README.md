@@ -6,7 +6,7 @@ It utilizes **Ruby on Rails** with a **PostgreSQL** database on the back-end, an
 
 ### Screenshots
 
-![HomeHaven clone screenshot Kenneth Choi](https://raw.githubusercontent.com/mrkchoi/WHR_data_visualization/master/dist/assets/screenshots/airbnb_screenshot.gif)
+![HomeHaven clone screenshot Kenneth Choi](https://raw.githubusercontent.com/mrkchoi/WHR_data_visualization/master/dist/assets/screenshots/aerbnb_screenshot.gif)
 
 ### Key Features
 
